@@ -1,0 +1,61 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: 'pragma-lambda
+
+  Sample SAM Template for pragma-lambda
+
+  '
+Globals:
+  Function:
+    Timeout: 20
+    MemorySize: 512
+Resources:
+  PragmaFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: PragmaFunction
+      Handler: co.pragma.lambdas.LambdaTestHandler::handleRequest
+      Runtime: java17
+      Architectures:
+      - x86_64
+      MemorySize: 512
+      Environment:
+        Variables:
+          NAME: PRAGMA
+      Events:
+        Api:
+          Type: Api
+          Properties:
+            Path: /pragma/test
+            Method: POST
+    Metadata:
+      SamResourceId: PragmaFunction
+  SaveRegisterFuntion:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: SaveRegisterFuntion
+      Policies:
+      - DynamoDBCrudPolicy:
+          TableName:
+            Ref: PragmaTable
+      Handler: co.pragma.lambdas.SaveHandler::handleRequest
+      Runtime: java17
+      Architectures:
+      - x86_64
+      MemorySize: 512
+      Environment:
+        Variables:
+          TABLE_NAME:
+            Ref: PragmaTable
+      Events:
+        Api:
+          Type: Api
+          Properties:
+            Path: /pragma/save
+            Method: POST
+    Metadata:
+      SamResourceId: SaveRegisterFuntion
+  PragmaTable:
+    Type: AWS::Serverless::SimpleTable
+    Properties:
+      TableName: pragmaTest

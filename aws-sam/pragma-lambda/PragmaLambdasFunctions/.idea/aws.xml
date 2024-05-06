@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="accountSettings">
+    <option name="activeProfile" value="profile:pragmaaws-533267042257-Pragma-Ps-Codewhisperer_Dev" />
+    <option name="activeRegion" value="us-west-2" />
+    <option name="recentlyUsedProfiles">
+      <list>
+        <option value="profile:pragmaaws-533267042257-Pragma-Ps-Codewhisperer_Dev" />
+        <option value="profile:pragmaaws-840021737375-Pragma-Ps-Developer-Eba" />
+        <option value="profile:pragmaaws-844362004051-AWSAdministratorAccess" />
+        <option value="profile:pragmaaws-737498786590-AWSAdministratorAccess" />
+        <option value="profile:default" />
+      </list>
+    </option>
+    <option name="recentlyUsedRegions">
+      <list>
+        <option value="us-west-2" />
+        <option value="us-east-1" />
+      </list>
+    </option>
+  </component>
+  <component name="connectionManager">
+    <option name="activeConnectionId" value="sso-session:pragmaaws" />
+  </component>
+  <component name="explorerToolWindow">
+    <option name="selectedTab" value="Explorer" />
+  </component>
+  <component name="lambda">
+    <option name="showAllHandlerGutterIcons" value="true" />
+  </component>
+</project>
