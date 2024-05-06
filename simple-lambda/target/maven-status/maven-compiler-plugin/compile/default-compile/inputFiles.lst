@@ -1,0 +1,12 @@
+/Users/davidyepes/Downloads/testlambda/src/main/java/co/pragma/lambdas/LambdaKinesisHandler.java
+/Users/davidyepes/Downloads/testlambda/src/main/java/co/pragma/lambdas/LambdaSQSHandler.java
+/Users/davidyepes/Downloads/testlambda/src/main/java/co/pragma/lambdas/LambdaCognitoHandler.java
+/Users/davidyepes/Downloads/testlambda/src/main/java/co/pragma/lambdas/LambdaS3Handler.java
+/Users/davidyepes/Downloads/testlambda/src/main/java/co/pragma/lambdas/LambdaSumHandler.java
+/Users/davidyepes/Downloads/testlambda/src/main/java/co/pragma/response/GetTestResponse.java
+/Users/davidyepes/Downloads/testlambda/src/main/java/co/pragma/lambdas/LambdaSNSHandler.java
+/Users/davidyepes/Downloads/testlambda/src/main/java/co/pragma/lambdas/LambdaStreamHandler.java
+/Users/davidyepes/Downloads/testlambda/src/main/java/co/pragma/lambdas/LambdaApiGatewayV2Handler.java
+/Users/davidyepes/Downloads/testlambda/src/main/java/co/pragma/lambdas/LambdaDynamoHandler.java
+/Users/davidyepes/Downloads/testlambda/src/main/java/co/pragma/TestLambdaMain.java
+/Users/davidyepes/Downloads/testlambda/src/main/java/co/pragma/lambdas/LambdaBasicHandler.java

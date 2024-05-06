@@ -1,0 +1,13 @@
+co/pragma/lambdas/LambdaStreamHandler.class
+co/pragma/lambdas/LambdaSumHandler$SumRecord.class
+co/pragma/lambdas/LambdaS3Handler.class
+co/pragma/lambdas/LambdaSNSHandler.class
+co/pragma/lambdas/LambdaBasicHandler.class
+co/pragma/lambdas/LambdaKinesisHandler.class
+co/pragma/lambdas/LambdaApiGatewayV2Handler.class
+co/pragma/lambdas/LambdaSumHandler.class
+co/pragma/lambdas/LambdaSQSHandler.class
+co/pragma/response/GetTestResponse.class
+co/pragma/lambdas/LambdaCognitoHandler.class
+co/pragma/lambdas/LambdaDynamoHandler.class
+co/pragma/TestLambdaMain.class
